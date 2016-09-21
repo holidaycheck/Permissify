@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="permission_rationale_title">Wee need this permission</string>
+</resources>

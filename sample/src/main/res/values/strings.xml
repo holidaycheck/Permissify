@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Permissify sample</string>
+    <string name="activity_sample_description">Click on the button to request specific permission</string>
+    <string name="location">Location</string>
+    <string name="camera">Camera</string>
+    <string name="contacts">Contacts</string>
+    <string name="permission_status_granted">Granted</string>
+    <string name="permission_status_unknown">Unknown</string>
+    <string name="permission_status_denied_once">Denied Once</string>
+    <string name="permission_status_denied_forever">Denied Forever</string>
+    <string name="permission_status_rationale">Show Rationale</string>
+    <string name="location_rationale">The location permission is necessary to locate hotels near you</string>
+    <string name="location_deny_dialog">Without location permission we can\'t show hotels near you</string>
+    <string name="camera_rationale">Wee need camera permission to take a picture of your swimming pool</string>
+    <string name="camera_deny_dialog">Without camera permission swimming pool selfies are disabled</string>
+</resources>

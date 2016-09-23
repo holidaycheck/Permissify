@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'Permissify'
+
+    publishedGroupId = 'com.holidaycheck'
+    libraryName = 'Permissify'
+    artifact = 'permissify'
+
+    libraryDescription = 'Permissify - Simplifying Android Permissions'
+
+    siteUrl = 'https://github.com/holidaycheck/Permissify'
+    gitUrl = 'https://github.com/holidaycheck/Permissify.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'domsu'
+    developerName = 'Dominik Suszczewicz, Tomasz Krysztofiak, Adam Jodłowski'
+    developerEmail = 'dominik.suszczewicz@holidaycheck.com'
+
+    licenseName = 'The MIT License'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
@@ -21,3 +45,7 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+

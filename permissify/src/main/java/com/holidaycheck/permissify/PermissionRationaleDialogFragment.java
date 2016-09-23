@@ -62,7 +62,7 @@ public class PermissionRationaleDialogFragment extends DialogFragment implements
             @Override
             public AlertDialog createDialog(Context context, String dialogMsg, DialogInterface.OnClickListener onClickListener) {
                 return new AlertDialog.Builder(context)
-                    .setTitle(R.string.permission_rationale_title)
+                    .setTitle(R.string.permissify_permission_rationale_title)
                     .setMessage(dialogMsg)
                     .setPositiveButton(android.R.string.ok, onClickListener)
                     .create();

@@ -64,7 +64,7 @@ public class PermissionDeniedInfoDialogFragment extends DialogFragment implement
             public AlertDialog createDialog(Context context, String dialogMsg, DialogInterface.OnClickListener onClickListener) {
                 return new AlertDialog.Builder(context)
                     .setMessage(dialogMsg)
-                    .setPositiveButton(R.string.go_to_settings, onClickListener)
+                    .setPositiveButton(R.string.permissify_go_to_settings, onClickListener)
                     .setNegativeButton(android.R.string.cancel, null)
                     .create();
             }

@@ -72,6 +72,10 @@ public class PermissifyConfig {
                     .build();
             }
 
+            if (instance.permissionTextFallback == null) {
+                instance.permissionTextFallback = new DialogText(R.string.permissify_no_text_fallback, R.string.permissify_no_text_fallback);
+            }
+
             return instance;
         }
     }

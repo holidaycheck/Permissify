@@ -2,4 +2,5 @@
 <resources>
     <string name="permissify_go_to_settings">Go to settings</string>
     <string name="permissify_permission_rationale_title">Wee need this permission</string>
+    <string name="permissify_no_text_fallback">Permissify: No fallback text was provided for this permission</string>
 </resources>

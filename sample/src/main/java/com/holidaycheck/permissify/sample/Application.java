@@ -13,7 +13,7 @@ public class Application extends android.app.Application {
         super.onCreate();
 
         PermissifyConfig permissifyConfig = new PermissifyConfig.Builder()
-            .setDefaultTextForPermissions(new HashMap<String, DialogText>() {{
+            .withDefaultTextForPermissions(new HashMap<String, DialogText>() {{
                 put(Manifest.permission_group.LOCATION, new DialogText(R.string.location_rationale, R.string.location_deny_dialog));
                 put(Manifest.permission_group.CAMERA, new DialogText(R.string.camera_rationale, R.string.camera_deny_dialog));
             }})

@@ -31,27 +31,27 @@ public class PermissifyConfig {
 
         private PermissifyConfig instance = new PermissifyConfig();
 
-        public Builder setDefaultPermissionCallOptions(PermissionCallOptions callOptions) {
+        public Builder withDefaultPermissionCallOptions(PermissionCallOptions callOptions) {
             instance.defaultPermissionCallOptions = callOptions;
             return this;
         }
 
-        public Builder setDefaultTextForPermissions(HashMap<String, DialogText> wording) {
+        public Builder withDefaultTextForPermissions(HashMap<String, DialogText> wording) {
             instance.defaultTextForPermissions = wording;
             return this;
         }
 
-        public Builder setPermissionTextFallback(DialogText dialogText) {
+        public Builder withPermissionTextFallback(DialogText dialogText) {
             instance.permissionTextFallback = dialogText;
             return this;
         }
 
-        public Builder setDialogRationaleDialogFactory(AlertDialogFactory factory) {
+        public Builder withDialogRationaleDialogFactory(AlertDialogFactory factory) {
             instance.rationaleDialogFactory = factory;
             return this;
         }
 
-        public Builder setDenyDialogFactory(AlertDialogFactory factory) {
+        public Builder withDenyDialogFactory(AlertDialogFactory factory) {
             instance.denyDialogFactory = factory;
             return this;
         }

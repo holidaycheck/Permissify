@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 
+/**
+ * Base activity for an application that uses Permissify library. It provides PermissifyManager that handles various permission request states.
+ */
 public class PermissifyActivity extends AppCompatActivity implements PermissifyManager.Callback {
 
     private PermissifyManager permissionManager;
@@ -41,6 +44,11 @@ public class PermissifyActivity extends AppCompatActivity implements PermissifyM
 
     }
 
+    /**
+     * Gets PermissifyManager that is associated with this activity
+     *
+     * @return PermissifyManager
+     */
     public PermissifyManager getPermissifyManager() {
         return permissionManager;
     }

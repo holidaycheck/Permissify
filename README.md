@@ -26,7 +26,7 @@ Include the library in your ``build.gradle``
 
 ```groovy
 dependencies{
-    compile 'com.holidaycheck.permissify:1.0.0'
+    compile 'com.holidaycheck:permissify:1.0.0'
 }
 ```
 
